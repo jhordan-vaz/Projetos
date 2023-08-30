@@ -6,9 +6,24 @@
   <title>Document</title>
 </head>
 <body>
-    <h1>Recursos HTML5</h1>
-    <!-- Recursos de Vídeo e Audio -->
+    
+  <h1>Recursos HTML5</h1>
+    
+  <!-- Cabeçalho, Nav, Listas, Links -->
 
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Header</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- Recursos de Vídeo e Audio -->
+    
+    <article>
     <div>
       <video width="320" height="240" controls>
          <source src="/HTML5/recursosAula1/Hunt clip.mp4" type="video/mp4">
@@ -25,7 +40,7 @@
 
     <div>
       <figure >
-         <img src="../HTML5/recursosAula1/gutsBerserk.jpeg" alt="Guts dentro do eclipse.">
+         <img src="../HTML5/recursosAula1/gutsBerserk.jpeg" alt="Guts dentro do eclipse." width="320">
          <figcaption>"Guts, Berserk."</figcaption>
       </figure>
     </div>
@@ -33,10 +48,67 @@
     <!-- Recursos de Form -->
 
     <div>
+      <h3>Preencha o formulário para receber info!</h3>
       <form action="">
-
+        <label>Email:</label>
+         <input type="email" name="email" required placeholder="Digite seu e-mail" autofocus>
+         <label>Nome:</label>
+         <input type="text" name="name" required placeholder="Nome completo">
+         <input type="submit" name="Enviar">
       </form>
     </div>
 
+    <!-- Recurso Editable -->
+
+    <div>
+      <div>
+        <p contenteditable="true">Este é um parágrafo que pode ser editado.</p>
+      </div>
+    </div>
+
+    <!-- Artigo do site -->
+   
+    </article>
+
+    <!-- Conteúdos ou informações mais relevantes do site -->
+
+    <aside>
+      <p>confira os nossos produtos, <a href="#">Clicando aqui!</a></p>
+    </aside>
+
+    <!-- Detalhes e sumário -->
+
+    <details open="open">
+        <summary>Violão</summary>
+        <p>Instrumento de 6 a 7 cordas, violão erudito e atual.</p>
+    </details>
+    <details open="">
+      <summary>Guitarra</summary>
+      <p>Instrumento de 6 a 7 cordas, metal, forró etc...</p>
+    </details>
+
+    <!-- Recurso datalist e Option -->
+
+    <form action="">
+      <p>Animais:</p>
+      <input list="instrumentos" name="instrumento">
+      <datalist id="instrumentos">
+        <option value="Violao"></option>
+        <option value="Guitarra"></option>
+        <option value="Baixo"></option>
+        <option value="Cavaquinho"></option>
+      </datalist>
+    </form>
+
+    <!-- Barra de progresso -->
+
+    <p>Barra de Loading:</p>
+    <progress value="60" max="100"></progress>
+
+     <!-- Footer/Rodapé -->
+
+    <footer>
+       <p>Rodapé</p>
+    </footer>
 </body>
 </html>
