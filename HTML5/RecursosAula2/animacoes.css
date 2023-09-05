@@ -12,8 +12,8 @@
 }
 
 @keyframes animacao3 {
-  from {}
-  to {left: 200px; background-color: green;}
+  from {left: 0;}
+  to {left: 200px; background-color: violet}
 }
 
 .animation-div {
@@ -38,8 +38,10 @@
 .animation-div3 {
   width: 100px;
   height: 100px;
-  background-color: brown;
+  background-color: rgb(97, 42, 165);
   position: relative;
-  animation-name: 5s;
-  animation-delay: 2s;
+  animation-name: animacao3;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
 }

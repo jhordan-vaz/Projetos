@@ -1,0 +1,19 @@
+
+.box {
+  background-color: rgb(230, 0, 255);
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes animacao4 {
+  from{left: 0;}
+  to{left: 200px; background-color: black;}
+}
+
+.animation-div4 {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  animation-name: animacao;
+  animation-duration: 5;;
+}
