@@ -1,19 +1,34 @@
+@keyframes animacao {
+  from{left: 0;}
+  to{left: 300px;}
+}
 
 .box {
   background-color: rgb(230, 0, 255);
   width: 50px;
   height: 50px;
-}
-
-@keyframes animacao4 {
-  from{left: 0;}
-  to{left: 200px; background-color: black;}
-}
-
-.animation-div4 {
-  width: 100px;
-  height: 100px;
-  background-color: violet;
+  position: relative;
   animation-name: animacao;
-  animation-duration: 5;;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#animation-div {
+  animation-timing-function: linear;
+}
+
+#animation-div2 {
+  animation-timing-function: ease;
+}
+
+#animation-div3 {
+  animation-timing-function: ease-in;
+}
+
+#animation-div4 {
+  animation-timing-function: ease-out;
+}
+
+#animation-div5 {
+  animation-timing-function: ease-in-out;
 }
