@@ -46,3 +46,70 @@
   position: relative;
   background-color: orangered;
 }
+
+.calc1 {
+  width: calc(25% );
+}
+
+.calc2 {
+  width: calc(50%);
+}
+
+.calc3 {
+  width: calc(75%);
+}
+
+.calc4 {
+  width: calc(50% / 2);
+  margin: 0;
+}
+
+/*  Gradient  */
+
+.gradient-box {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  margin: 20;
+}
+
+
+.gradient-box2 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin: 20;
+}
+
+.gradient1 {
+  background-image: linear-gradient(black, orangered);
+}
+
+.gradient2 {
+  background-image: linear-gradient(to right, black, orangered);
+}
+
+.gradient3 {
+  background-image: linear-gradient(to left, black, orangered);
+}
+
+.gradient4 {
+  background-image: linear-gradient(to top, black, orangered);
+}
+
+.gradient5 {
+  background-image: linear-gradient( black, orangered);
+}
+
+.gradient7 {
+  background-image: radial-gradient(#323042 10%, #DB9D47 30%, #FF784F );
+}
+
+.gradient8 {
+  background-image: radial-gradient(violet 20%, blue 40%, pink);
+}
+
+.gradient9 {
+  background-image: radial-gradient(circle, blue, red, purple);
+}
+
