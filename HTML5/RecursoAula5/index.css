@@ -113,3 +113,58 @@
   background-image: radial-gradient(circle, blue, red, purple);
 }
 
+/* Font Face */
+
+@font-face {
+  font-family: "Lage Grafica";
+  src: url()
+}
+
+.fontface{
+  font-family: "Lage Grafica";
+}
+
+/*  Media Query */
+
+.mediaquery {
+  height: 200px;
+  width: 1200px;
+  background-color: violet;
+}
+
+@media (max-width: 1000px) {
+    .mediaquery {
+      width: 600px;
+      background-color: #333;
+    }
+}
+
+@media (max-width: 768px) {
+  .mediaquery {
+    width: 300px;
+    background-color: #FF784F;
+  }
+}
+
+@media (max-width: 512px) {
+  .mediaquery {
+    width: 200px;
+    background-color:pink;
+  }
+}
+
+.div-border {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 20px;
+} 
+
+.border1 {
+  border-radius: 5px;
+}
+
+.border2 {
+  border-radius: 8px;
+}
+
