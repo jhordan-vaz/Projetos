@@ -56,3 +56,44 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*  Conteudo */
+
+.content {
+  position: absolute;
+  left: 300px;
+  width: calc(100% - 300px);
+}
+
+.content h1, .content h2 {
+    color: #006599;
+    margin-bottom: 30px;
+}
+
+.content h1 {
+  font-size: 48px;
+}
+
+.content h2 {
+  font-size: 35px;
+}
+
+section {
+  padding-left: 50px;
+}
+
+/* Bem vindo */
+
+#sessao-bemvindo {
+  padding-left: 0;
+}
+
+#sessao-bemvindo .content {
+  padding-left: 50px;
+}
+
+#sessao-bemvindo .banner {
+  height: 50px;
+  background-image: url("../img/banner2.jpg");
+  background-position: center;
+}
