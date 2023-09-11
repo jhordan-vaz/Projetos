@@ -155,6 +155,99 @@ section {
 
 #sessao-sobre .sessao-minibanner {
   float: right;
-  margin-right: 50px;
-  background-image: url("../img/banner2.jpg");
+  margin-right: 100px;
+  background-image: url("../img/banner4.jpg");
+}
+
+#sessao-sobre .sessao-descricao {
+  position: absolute;
+  left: 25px;
+  width: calc(100% - 400px);
+}
+
+/* Sessao Galerias */
+
+.banner-galeria {
+  background-position: center;
+  background-repeat: cover;
+  display: inline-block;
+  height: 202px;
+}
+
+#sessao-doces, #sessao-salgado, #sessao-pizza {
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.doces-imgs {
+  width: 18.8%;
+  margin-left: .5%;
+  margin-left: .5%;
+}
+
+#img1 {
+  background-image: url("../img/galeria2.jpg");
+  margin-left: 0px;
+}
+
+#img2 {
+  background-image: url("../img/galeria5.jpg");
+  
+}
+
+#img3 {
+  background-image: url("../img/galeria6.jpg");
+
+}
+
+#img4 {
+  background-image: url("../img/galeria11.jpg");
+  
+}
+
+#img5 {
+  background-image: url("../img/galeria3.jpg");
+  margin-right: 0px;
+}
+
+.salgado-imgs {
+  width: 32.3%;
+  height: 300px;
+  margin-left: .5%;
+  margin-left: .5%;
+}
+
+#img6 {
+  background-image: url("../img/salgados1.jpg");
+  margin-left: 0;
+}
+
+#img7 {
+  background-image: url("../img/salgado2.jpg");
+}
+
+#img8 {
+  background-image: url("../img/salgado3.jpg");
+  margin-right: 0;
+}
+
+.pizza-imgs {
+  width: 32.3%;
+  height: 300px;
+  margin-left: .5%;
+  margin-left: .5%;
+}
+
+#img9 {
+  background-image: url("../img/pizza1.png");
+  margin-left: 0;
+}
+
+#img10 {
+  background-image: url("../img/pizza2.png");
+}
+
+#img11 {
+  background-image: url("../img/pizza3.png");
+  margin-right: 0;
 }
