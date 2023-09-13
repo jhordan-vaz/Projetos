@@ -251,3 +251,9 @@ section {
   background-image: url("../img/pizza3.png");
   margin-right: 0;
 }
+
+footer {
+  height: 50px;
+  width: 100%;
+  background: blue;
+}
