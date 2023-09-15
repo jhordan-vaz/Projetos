@@ -257,3 +257,11 @@ footer {
   width: 100%;
   background: blue;
 }
+
+#form-contato {
+  width: 500px;
+}
+
+#form-contato input[type=text], #form-contato input[type=email], #form-contato textarea {
+  
+}
