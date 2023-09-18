@@ -268,8 +268,23 @@ footer {
   padding: 10px;
   margin-bottom: 20px;
   font-size: 16px;
-  font-family: Open sans-serif, "sans-serif";
+  font-family: "Open sans-serif", sans-serif;
 }
+
 #form-contato input[type=text], #form-contato input[type=email], #form-contato textarea {
-  
+  border-color: #006599;
+}
+
+#form-contato {
+  height: 150px;
+}
+
+#form-contato ::placeholder {
+  color: #2796c6;
+}
+
+#form-contato input[type=submit] {
+  margin-left: 0;
+  font-size: 16px;
+  width: 180px;
 }
