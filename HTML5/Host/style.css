@@ -165,7 +165,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    width: 90%;
+    width: 80%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -211,6 +211,7 @@ nav {
     background-color: #86258a;
     padding-top: 50px;
     padding-bottom: 20px;
+    border-radius: 5px;
 }
 
 .plan .plan-btn {
@@ -226,5 +227,53 @@ nav {
     background-color: #f45c57;
 }
 
-/* Footer */
+/* Search Domain*/
 
+.searchdomain-container {
+    background-color: #34454e;
+    text-align: center;
+    padding: 5em 0;
+    font-size: 24px;
+}
+
+.searchdomain-container h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+}
+
+.searchdomain-container p {
+    color: #201f1f;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.searchdomain-container input[type=submit] {
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Contanto */ 
+
+.contact-container {
+    text-align: center;
+    padding-top: 5em;
+}
