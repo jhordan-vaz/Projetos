@@ -11,27 +11,23 @@
 // console.log(resultado());
 
 
-function GetIMC (peso = 0, altura = Number, imc) {
+function GetIMC (peso = Number, altura = Number, imc) {
     this.peso = peso;
     this.altura = altura;
     this.imc = imc;
 }
 
 GetIMC.prototype.isValid = function() {
-    let validPeso = this.peso;
-    let validAltura = this.altura;
     let valid = true;
-
-    
+    if(this.peso === "" || this.peso === String)  return console.log("Peso inválido!"); 
+    if(this.peso === 0 || this.peso < 10)  return console.log("Peso inválido!"); 
 } 
 
 
-GetIMC.prototype.CalcImc = function(alt, pes) {
+GetIMC.prototype.CalcImc = function() {
     let result;
-    this.alt = this.peso;
-    this.pes = this.altura;
-
-    
+    result = this.peso/ (this.altura * this.altura);
+    return console.log(result.toFixed(2));
 };
 
 
@@ -40,10 +36,7 @@ GetIMC.prototype.retornaTudo = function () {
     return console.log('Olá Mundo!')
 }
 
-const imc = new GetIMC(1, 2, "IMC");
-console.log(imc);
+const imc = new GetIMC(5, 1.80);
 imc.CalcImc();
 imc.isValid();
-imc.retornaTudo();
 
-// console.log(imc.CalcImc());
