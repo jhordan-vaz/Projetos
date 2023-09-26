@@ -12,9 +12,10 @@
 
 
 function GetIMC (peso = Number, altura = Number, imc) {
-    this.peso = peso;
-    this.altura = altura;
-    this.imc = imc;
+    Object.defineProperties(this, "peso" ,{
+        writable: false,
+        enumerable: true,
+    });
 }
 
 GetIMC.prototype.isValid = function() {
