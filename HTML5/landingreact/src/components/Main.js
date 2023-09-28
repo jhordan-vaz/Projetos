@@ -12,7 +12,9 @@ export default class Main extends Component {
   render() {
     return (
       <div className='main'>
+        <div className='Header'>
         <h1>Testando</h1>
+        </div>
       </div>
     );
   }
