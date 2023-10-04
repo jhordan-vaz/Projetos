@@ -5,14 +5,10 @@ import React, { Component } from 'react';
 import { FaPlus } from "react-icons/fa";
 import "./Main.css";
 
+
 export default class Main extends Component {
   state = {
     newTask: "",
-    tasks: [
-      "Tarefa 1",
-      "Tarefa 2",
-      "Tarefa 3"
-    ],
   };
 
   inputChanged = (e) => {
@@ -35,7 +31,7 @@ export default class Main extends Component {
             </button>
           </form>
 
-        <div  className="ul" key={tasks}>
+        <div className="ul" key={tasks}>
          <ul className='tasks-ul'>
            {tasks.map(t => (
             <li>{tasks}</li>
